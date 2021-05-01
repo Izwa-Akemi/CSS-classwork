@@ -1,0 +1,56 @@
+/*全体設定*/
+li {
+    list-style: none;
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 39, 126);;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 25px;
+    color: rgb(0, 39, 126);;
+    font-weight: bold;
+}
+
+/*ヘッダー設定*/
+.header-wrap{
+    margin-top: 20px;
+}
+.header-container {
+   display: flex;
+   justify-content: space-between;
+}
+.header-left p{
+width: 30vw;
+margin-left: 10vw;
+}
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+.img{
+    height: 17vw;
+    margin-top: 10vw;
+    position: relative;
+    left: 50vw;
+}
+img{
+    width: 35vw;
+}
+
+.img-word{
+    font-size:50px;
+    margin-left: 10vw;
+}
+
+.box{
+    height: 15vw;
+    background: rgb(0, 39, 126);
+    width: 60vw;
+    margin-left: 10vw;
+}
